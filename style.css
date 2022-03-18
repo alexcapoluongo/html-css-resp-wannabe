@@ -27,8 +27,8 @@
 
 @media screen and (max-width:419px){
 
-    #lezioni{
-      text-align: left;
+    .row{
+      width:100%;
     }
   
     #lezioni .row h1{
@@ -42,13 +42,13 @@
 
     #lezioni .row>.left{
       float:none;
-      width:30%;
+      width:100%;
       margin-bottom: 50px;
     }
 
    #lezioni .row>.right{
       float:none;
-      width:30%;
+      width:100%;
     }
 
     #lezioni .row{
@@ -79,6 +79,7 @@
 #steps .row>.left, #steps .row>.central, #steps .row>.right{
   float:none;
   margin-bottom:50px;
+  width:100%;
 }
 
 #steps h3{
