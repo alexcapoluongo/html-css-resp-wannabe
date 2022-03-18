@@ -27,18 +27,23 @@
 
 @media screen and (max-width:419px){
 
-    #lezioni .row h1{
+    #lezioni{
       text-align: left;
+    }
+  
+    #lezioni .row h1{
       color:#428bca;
     }
 
     #lezioni .row h3{
+      text-align: center;
       color:grey;
     }
 
     #lezioni .row>.left{
       float:none;
       width:30%;
+      margin-bottom: 50px;
     }
 
    #lezioni .row>.right{
@@ -64,7 +69,24 @@
 
 #steps {
   text-align: center;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* mediaquery steps */
+
+#steps .row>.left, #steps .row>.central, #steps .row>.right{
+  float:none;
+  margin-bottom:50px;
+}
+
+#steps h3{
+  color:darkgoldenrod;
+}
+
+
+
 
 /* BLOCCO PERCHE */
 #why {
