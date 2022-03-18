@@ -23,6 +23,37 @@
   text-align: center;
 }
 
+/* media query lezioni */
+
+@media screen and (max-width:419px){
+
+    #lezioni .row h1{
+      text-align: left;
+      color:#428bca;
+    }
+
+    #lezioni .row h3{
+      color:grey;
+    }
+
+    #lezioni .row>.left{
+      float:none;
+      width:30%;
+    }
+
+   #lezioni .row>.right{
+      float:none;
+      width:30%;
+    }
+
+    #lezioni .row{
+      display: flex;
+      flex-direction: column;
+    }
+  
+  
+}
+
 /* BLOCCO STEPS */
 #steps .row>.left,
 #steps .row>.central,
