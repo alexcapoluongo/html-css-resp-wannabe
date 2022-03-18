@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-/* media query lezioni */
+/* media query mobile lezioni */
 
 @media screen and (max-width:419px){
 
@@ -59,6 +59,15 @@
   
 }
 
+/* mediaquery tablet steps */
+@media screen and (min-width:419px) and (max-width:768px) {
+  #lezioni .row{
+    width:700px;
+  }
+}
+
+
+
 /* BLOCCO STEPS */
 #steps .row>.left,
 #steps .row>.central,
@@ -74,7 +83,7 @@
   box-sizing: border-box;
 }
 
-/* mediaquery steps */
+/* mediaquery mobile steps */
 
 #steps .row>.left, #steps .row>.central, #steps .row>.right{
   float:none;
@@ -91,6 +100,19 @@
   color:darkgoldenrod
 }
 
+/* mediaquery tablet steps */
+
+@media screen and (min-width:419px) and (max-width:768px) {
+
+  #steps .row{
+    width:700px;
+  }
+
+  #steps .row>.left{
+    width:100%;
+  }
+
+}
 
 /* BLOCCO PERCHE */
 #why {
@@ -110,7 +132,7 @@
   padding: 30px
 }
 
-/* mediaquery why */
+/* mediaquery mobile why */
 
 #why h1{
   padding-top: 20px;
@@ -120,8 +142,16 @@
 #why h3{
   color:rgb(6, 139, 184);
 }
+
 #why img{
   height:150px;
+}
+
+/* mediaquery tablet why */
+@media screen and (min-width:419px) and (max-width:768px) {
+  #why .row{
+    width:700px;
+  }
 }
 
 /* COMMON */
@@ -142,3 +172,17 @@ img {
 .clear {
   clear: both;
 }
+
+/* common tablet mediaquery */
+
+@media screen (max-width:419px) {
+  body{
+    width:419px;
+  }
+}
+
+@media screen and (min-width:419px) and (max-width:768px) {
+ body{
+   width:700px;
+ }
+
