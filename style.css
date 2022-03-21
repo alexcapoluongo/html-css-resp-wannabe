@@ -17,10 +17,20 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+  width: 50%;
+  height:auto;
 }
 
 #lezioni {
   text-align: center;
+}
+
+
+/* mediaquery tablet steps */
+@media screen and (min-width:419px) and (max-width:768px) {
+  #lezioni .row{
+    width:700px;
+  }
 }
 
 /* media query mobile lezioni */
@@ -59,12 +69,6 @@
   
 }
 
-/* mediaquery tablet steps */
-@media screen and (min-width:419px) and (max-width:768px) {
-  #lezioni .row{
-    width:700px;
-  }
-}
 
 
 
